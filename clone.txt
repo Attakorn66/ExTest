@@ -1,0 +1,26 @@
+$ git config --global user.name "Attakorn66"
+
+$ git config --global user.email "attakorn_6062@hotmail.co.th"
+
+$ chmod 600 ~/.ssh/id_rsa
+
+cd team05
+
+$ git checkout -b issue-41 master
+
+$ notepad README.md
+
+$ git add README.md
+
+$ git commit -m "add name and student no B6008031 - close #41"
+
+$ git checkout master
+
+$ git remote update
+
+$ git rebase origin/master
+
+$ git merge issue-41 --no-ff
+
+git push origin master
+สวัสดีครับผมนายอรรถกรณ์ โพธิ์ปาน B6008031 สิ่งที่ทำไปแล้วคือ product backlog สิ่งที่จะทำต่อไป UseCase รวม ปัญหาที่พบคืองานเยอะครับ
